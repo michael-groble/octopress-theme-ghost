@@ -1,0 +1,9 @@
+$base1: #000000 !default;
+$base01: #a1a1a1 !default;
+$base02: #f0f0f0 !default;
+$base03: #ffffff !default;
+
+/* non highlighted code colors */
+$pre-bg: $base03 !default;
+$pre-border: darken($base02, 5) !default;
+$pre-color: $base1 !default;
