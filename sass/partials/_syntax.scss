@@ -86,7 +86,7 @@ h3.filename {
   + pre { @include border-top-radius(0px); }
 }
 
-p, li {
+p, li, * + table {
   code {
     @extend .mono;
     white-space: nowrap;
@@ -95,7 +95,7 @@ p, li {
   pre code { font-size: 1em !important; background: none; border: none; }
 }
 
-p > code , li > code {
+p > code , li > code, * + table code {
   color: #555;
 }
 
